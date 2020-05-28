@@ -6,7 +6,7 @@ public abstract class Formas {
 	
 	public abstract double calcularVolume();
 	
-	/* get da classe privada
+	/* get da classe privada.
 	 * poderia ser definida como "public final double getPi () { return pi; }"
 	 * Já que o valor de Pi nunca irá mudar. */
 	public double getPi () { return pi; }

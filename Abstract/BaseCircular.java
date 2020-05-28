@@ -1,7 +1,7 @@
 package Abstract;
 // BaseCircular tem tudo o que contém na classe Piramide
 public class BaseCircular extends Piramide {
-	// variável privada da classe BaseCircular
+	// variável privada da classe BaseCircular.
 	private double raio;
 	
 	// Conceito de Sobreescrita que só funciona atrelada ao conceito de Herança
