@@ -12,7 +12,7 @@ public class NewProfessor {
 	public double calculaSalario () {
 		return salarioBruto - (salarioBruto*desconto/100);
 	}
-	
+	// Construtor com valores padrões SE a assinatura estiver em branco
 	public NewProfessor () {
 		this.matr = "2019";
 		this.nome = "Jorge";

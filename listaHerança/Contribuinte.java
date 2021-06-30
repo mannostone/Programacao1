@@ -10,7 +10,7 @@ public class Contribuinte {
 		double rendimento;
 		
 		public double calcularImposto() {
-			return 0; // ???
+			return 0; // Não desenvolvido
 		}
 		
 		
