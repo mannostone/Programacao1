@@ -10,7 +10,7 @@ public class Retangulo { // extends (nome da classe) quer dizer que estou "receb
 		 altura = 10;
 	 }
 	 
-	// Construtor criado com parâmetros (Se diferem dos Construtores anteriores)
+	// Construtor criado com parâmetros (Se difere do Construtor anterior)
      public Retangulo(int base, int altura) { 
     	/* o comando "this" serve para trocar o valor padronizado pelo valor especificado pelo programador/usuario 
     	(usuario = via Scanner ou JOptionPane) */
