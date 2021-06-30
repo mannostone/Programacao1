@@ -15,7 +15,7 @@ public class testeFatura {
 		f.setNumero (JOptionPane.showInputDialog ( "Digite o número/ID/Código de barras do produto" ));
 		
 		// Entrada e conversão de dados via JOptionPane
-		// Veja o arquivo "Main" para ver apenas a conversão de Wrapper para primitivo
+		// Veja o arquivo "Main.java" para ver apenas a conversão de Wrapper para primitivo
 		f.setQuantItem (Integer.parseInt ( JOptionPane.showInputDialog ( "Digite a quantidade desse item" )));
 		f.setPrecoItem (Double.parseDouble ( JOptionPane.showInputDialog ( "Digite quanto custa esse item" )));
 		
