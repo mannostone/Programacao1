@@ -11,7 +11,7 @@ public class soma {
 		
 		int s = xa+ya; // Soma dos valores convertidos
 		
-		return ""+s; 
+		return ""+s; // retorna os valores somados a uma String em branco (gambiarra)
 	}
 	
 	public double soma (double x, double y) { // a Assinatura contém duas variáveis de tipo Double
