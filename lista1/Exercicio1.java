@@ -6,7 +6,7 @@ public class Exercicio1 {
         float salario = 2500; // atribuição de um valor direto na variável 
         float novoSalario;
         float aumento;
-        int percentual = 10;// atribuição de um valor direto na variável 
+        int percentual = 10;
         
         // As 3 linhas a seguir devem ser comentadas para exibir as alterações feitas com métodos (Linha 17)
         aumento = salario * percentual / 100;

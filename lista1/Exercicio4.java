@@ -7,7 +7,7 @@ public class Exercicio4 {
         double valorImposto =   precoFabrica * percentualImposto / 100;
         double precoFinal = precoFabrica + lucroDistribuidor + valorImposto;
                 
-        System.out.println("PreÃ§o Final: " + precoFinal);        
+        System.out.println("Preço Final: " + precoFinal);        
         
     }
     

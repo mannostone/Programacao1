@@ -16,7 +16,7 @@ public class Exercicio5 {
        aumento = salario - (salario - novoSalario);
     
                
-       System.out.println("Novo salÃ¡rio: " + (salario+novoSalario));
+       System.out.println("Novo salario: " + (salario+novoSalario));
        System.out.println("Aumento: " + aumento);
        
         entrada.close(); // Finalização da entrada de dados no programa
