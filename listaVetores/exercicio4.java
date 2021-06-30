@@ -15,7 +15,7 @@ public class exercicio4 {
             %d - Significa que o número que será exibido no lugar de "%d" será um valor do tipo INTEIRO
             %s = Significa que o dado que será exibido no lugar de "%s" será um valor do tipo String 
 			%f = Significa que o número que será exibido no lugar de "%f" será um valor de ponto flutuante. 
-			Obs: A quantidade de casas decimais exibidas após a vírgula pode ser definida livremente.
+			Obs: A quantidade de casas decimais exibidas após a vírgula pode ser definida livremente. Exemplo: %.2f
 			
 			\n = Significa dizer que eu quero pular uma linha
 			("\n" não será exibido, apenas pulará a linha, "System.out.println" faz isso automaticamente)

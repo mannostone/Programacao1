@@ -3,7 +3,7 @@ package listaVetores;
 public class exercicio1 {
     public static void main (String[] args) {
         
-           // contador que serve para o laço for da linha 14
+           // contador que serve para o laço for da linha 20
            int cont;
            
            /* Atenção! a forma de declarar o vetor é diferente do C++

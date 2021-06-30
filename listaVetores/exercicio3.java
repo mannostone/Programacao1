@@ -14,15 +14,15 @@ public class exercicio3 {
         {
             dados2[cont] = (int) Math.sqrt(dados1[cont]); 
             /* dados2[cont] vai receber o calculo que será feio depois do sinal de atribuição, onde:
-            1- dados2 é o vetor que irá receber os dados
-            2- [cont] é a posição dentro do vetor
+            1- dados2 é o nome do vetor que irá receber os dados
+            2- [cont] representa a posição dentro do vetor
             3- "(int)" significa dizer que não queremos quaisquer números que existam depois da vírgula, 
             o interesse desse exercicio está apenas em obter o valor inteiro do cálculo
             4- "Math.sqrt" é o algoritmo que irá realizar cálculo, sendo que ele irá retornar o valor em double! 
-            Por isso é necessário fazer o Cast Explicito. (Os vetores são do tipo inteiro)
+            Por isso é necessário fazer o Cast Explicito para que possa ser armazenado. (Os vetores são do tipo inteiro)
             5- (dados1[cont]) nada mais é que o vetor da linha 7 e seus respectivos valores, onde cont é a 
             posição dentro do vetor conforme dito anteriormente, ele é quem será usado para ser feito o cálculo
-            em "Math.sqrt" (linha 18) */
+            em "Math.sqrt" (linha 15) */
             
             System.out.println("A raiz quadrada de " + dados1[cont] + " é " + dados2[cont]);
             // Dentro desse mesmo laço for podemos exibir o valor atribuido a dados2[cont] para verificar se o programa está correto
