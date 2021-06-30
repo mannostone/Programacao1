@@ -18,11 +18,10 @@ public class fatura {
 	public String getDescricao () {	return descricao; }
 	
 	// set e get de quantidade de item
-	// Se o valor não for positivo, ele deve ser configurado como 0. 
 	public void setQuantItem (int quantItem) {
 		if (quantItem > 0)
 			this.quantItem = quantItem;
-		
+		// Se o valor não for positivo, ele deve ser configurado como 0. 
 		else
 			this.quantItem = 0;
 	}
@@ -31,11 +30,10 @@ public class fatura {
 	}
 	
 	// set e get de preço por unidade
-	// Se o preço por item não for positivo, ele deve ser configurado como 0.0. 
 	public void setPrecoItem (double precoItem) {
 		if (precoItem > 0)
 			this.precoItem = precoItem;
-		
+		// Se o preço por item não for positivo, ele deve ser configurado como 0.0. 
 		else
 			this.precoItem = 0;
 	}
