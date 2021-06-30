@@ -3,7 +3,7 @@ package sobreposicao;
 // Exercicio 5
 import java.util.Scanner;
 public class teste {
-
+	// Cada método testa um dos exercícios da lista
 	public static void main(String[] args) {
 		// teste5A();
 		// teste5B();
@@ -12,6 +12,7 @@ public class teste {
 		// teste5E();
 	}
 	
+	// TESTE DE TODOS OS EXERCÍCIOS
 	public static void teste5A() {
 	// Administrativo
 		Administrativo a = new Administrativo();
