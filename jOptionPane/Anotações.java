@@ -21,7 +21,3 @@ package jOptionPane;
  Double			|| double				|| Double.parseDouble();
  
  String não é considerado tipo primitivo, por isso nao entra nessa lista */
-
-public class Anotações {
-
-}
