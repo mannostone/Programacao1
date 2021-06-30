@@ -10,7 +10,7 @@ public class exercicio1 {
 				
 		System.out.println("Digite a sua idade: ");
 		idade = sc.nextInt();
-		sc.close(); //// Declarado o término de "sc" e a entrada de valores
+		sc.close(); // Declarado o término de "sc" e a entrada de valores
 		
 		analisaIdade(idade); // Comando que irá retornar o comparativo feito no método analisaIdade
 	}

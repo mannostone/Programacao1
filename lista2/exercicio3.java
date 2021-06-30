@@ -24,12 +24,12 @@ public class exercicio3 {
 	        variável "imc". Atenção! Para atribuir um valor a variável é necessário que o método TENHA retorno, ou seja, não seja void. */
 	        double imc = obtemIMC(m, Kg);
 	        
-	        /* Linha que está chamando o método da linha 41 que fará o comparativo e exibirá a mensagem de 
+	        /* Linha que está chamando o método da linha 52 que fará o comparativo e exibirá a mensagem de 
 	        acordo com o comparativo "IMC" */
 	        comparaIMC(imc);
 	        
 	        // Desconsidere essa linha, adicionei apenas para informar o valor calculado pelo "obtemIMC"
-	        System.out.printf("%.2f", imc);
+	        // System.out.printf("%.2f", imc);
 	        
 	    }
 	    
@@ -48,7 +48,7 @@ public class exercicio3 {
 	        // O valor calculado irá retornar para a linha 25 e atribuido
 	        return IMC; 
 	    }
-	    
+	    // Métodos void não possuem retorno
 	    public static void comparaIMC(double imc) { // Esse módulo tem como função exibir a mensagem de acordo com o armazenado em "imc"
 	        
 	        if ( imc <= 18.5) 
